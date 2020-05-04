@@ -1,6 +1,6 @@
 import * as React from "react";
-import { SearchText } from '../interfaces/SearchText.interface';
-import { SearchProps } from "../interfaces/SearchProps.interface";
+import { SearchText } from '../../interfaces/SearchText.interface';
+import { SearchProps } from "../../interfaces/SearchProps.interface";
 
 export default class Search extends React.Component<SearchProps, SearchText> {
 

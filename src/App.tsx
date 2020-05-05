@@ -8,12 +8,9 @@ export default class App extends Component {
     render() {
     return (
       <div className="p-16">
-        <div className="mb-4">
-          <Header />
-        </div>
+        <Header />
         <div className="flex justify-between items-start">
           <Dashboard />
-          <Discover />
         </div>
       </div>
     );

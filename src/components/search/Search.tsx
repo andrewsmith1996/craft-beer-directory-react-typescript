@@ -25,10 +25,11 @@ export default class Search extends React.Component<SearchProps, SearchText> {
 
   render() {
     return (
-      <div>
-        <h2>Search</h2>
-        <input type="text" value={this.state.text} onChange={this.handleSearchUpdate}/>
-        <button onClick={this.submitSearch}>Search</button>
+      <div> 
+        <div className="flex">
+          <input placeholder="Beer Name" className="mr-4 bg-white focus:outline-none focus:shadow-outline border border-gray-300 rounded-lg py-2 px-4 block w-full appearance-none leading-norma" type="text" value={this.state.text} onChange={this.handleSearchUpdate}/>
+          <button onClick={this.submitSearch}>Search</button>
+        </div>
       </div>
     )
   }

@@ -27,7 +27,7 @@ export default class Discover extends React.Component {
       <div className="flex flex-col justify-center">
         <Card beer={this.state.randomBeer} />
         <div className="p-2">
-          <h5 className="text-center text-xs font-open-sans cursor-pointer" onClick={this.handleRefreshClick}>Discover Another</h5>
+          <h5 className="text-center text-xs font-open-sans cursor-pointer" onClick={this.handleRefreshClick}>Random Recipe</h5>
         </div>
       </div>
     )

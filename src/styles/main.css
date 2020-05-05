@@ -6048,6 +6048,14 @@ video {
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
+.font-arvo {
+  font-family: Arvo, serif;
+}
+
+.font-open-sans {
+  font-family: Open Sans, sans-serif;
+}
+
 .font-hairline {
   font-weight: 100;
 }
@@ -19784,6 +19792,14 @@ video {
 
   .sm\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .sm\:font-arvo {
+    font-family: Arvo, serif;
+  }
+
+  .sm\:font-open-sans {
+    font-family: Open Sans, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -33525,6 +33541,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .md\:font-arvo {
+    font-family: Arvo, serif;
+  }
+
+  .md\:font-open-sans {
+    font-family: Open Sans, sans-serif;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -47264,6 +47288,14 @@ video {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  .lg\:font-arvo {
+    font-family: Arvo, serif;
+  }
+
+  .lg\:font-open-sans {
+    font-family: Open Sans, sans-serif;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -61001,6 +61033,14 @@ video {
 
   .xl\:font-mono {
     font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  }
+
+  .xl\:font-arvo {
+    font-family: Arvo, serif;
+  }
+
+  .xl\:font-open-sans {
+    font-family: Open Sans, sans-serif;
   }
 
   .xl\:font-hairline {

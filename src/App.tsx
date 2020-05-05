@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './App.css';
 import Header from './components/Header';
 import { CONFIG } from './enums/config.enum';
 import Card from './components/card/Card';
+import './styles/main.css';
 
 export default class App extends Component {
   
@@ -16,8 +16,8 @@ export default class App extends Component {
   }
 
   render() {
-      return (
-        <div className="App">
+    return (
+      <div className="p-16">
         <Header />
         <Card beer={this.state.randomBeer} />
       </div>
